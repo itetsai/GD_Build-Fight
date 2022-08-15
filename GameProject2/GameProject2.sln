@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProject2", "GameProject2.csproj", "{3C672C4F-9AC6-4E97-14F9-47E04E9BFFEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProject2.Plugins", "GameProject2.Plugins.csproj", "{A1615776-F942-424B-8A5A-B9B7A1D2FC75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProject2.Editor.Plugins", "GameProject2.Editor.Plugins.csproj", "{67657F9A-CD2C-D11F-B9DC-2A36D5C56B28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProject2.Editor", "GameProject2.Editor.csproj", "{2DA36058-B55E-6D1D-12B5-B0B500746567}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C672C4F-9AC6-4E97-14F9-47E04E9BFFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C672C4F-9AC6-4E97-14F9-47E04E9BFFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C672C4F-9AC6-4E97-14F9-47E04E9BFFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C672C4F-9AC6-4E97-14F9-47E04E9BFFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1615776-F942-424B-8A5A-B9B7A1D2FC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1615776-F942-424B-8A5A-B9B7A1D2FC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1615776-F942-424B-8A5A-B9B7A1D2FC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1615776-F942-424B-8A5A-B9B7A1D2FC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67657F9A-CD2C-D11F-B9DC-2A36D5C56B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67657F9A-CD2C-D11F-B9DC-2A36D5C56B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67657F9A-CD2C-D11F-B9DC-2A36D5C56B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67657F9A-CD2C-D11F-B9DC-2A36D5C56B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA36058-B55E-6D1D-12B5-B0B500746567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA36058-B55E-6D1D-12B5-B0B500746567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA36058-B55E-6D1D-12B5-B0B500746567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA36058-B55E-6D1D-12B5-B0B500746567}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

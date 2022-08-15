@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e7446be879c6faf49b6bda4366227ef9
+timeCreated: 1511355361
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - breakBurst: {fileID: 19800000, guid: 4f1f96130886bea408faa6a445c56e64, type: 2}
+  - breakWave: {fileID: 19800000, guid: 15ad7a8f7a59bfe4abf2de0192a64da7, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

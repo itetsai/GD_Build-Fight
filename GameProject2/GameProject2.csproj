@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3C672C4F-9AC6-4E97-14F9-47E04E9BFFEA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp.dll</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2017.1.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-1.0.55.56.0b12">
+      <HintPath>Assets/TextMesh Pro/Plugins/TextMeshPro-1.0.55.56.0b12.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="GameProject2.Plugins.csproj">
+      <Project>{A1615776-F942-424B-8A5A-B9B7A1D2FC75}</Project>
+      <Name>GameProject2.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameProject2.Plugins.unityproj">
+      <Project>{A1615776-F942-424B-8A5A-B9B7A1D2FC75}</Project>
+      <Name>GameProject2.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\AnJ\Scripts\autodeactive.cs" />
+    <Compile Include="Assets\AnJ\Scripts\autodestroy.cs" />
+    <Compile Include="Assets\AnJ\Scripts\bullet.cs" />
+    <Compile Include="Assets\AnJ\Scripts\FireBullet.cs" />
+    <Compile Include="Assets\AnJ\Scripts\FireLaser.cs" />
+    <Compile Include="Assets\AnJ\Scripts\FireRocket.cs" />
+    <Compile Include="Assets\AnJ\Scripts\FireShell.cs" />
+    <Compile Include="Assets\AnJ\Scripts\GUIController.cs" />
+    <Compile Include="Assets\AnJ\Scripts\objMainBodyStateControl.cs" />
+    <Compile Include="Assets\AnJ\Scripts\objStateControl.cs" />
+    <Compile Include="Assets\AnJ\Scripts\RocketExplosion.cs" />
+    <Compile Include="Assets\AnJ\Scripts\ShellExplosion.cs" />
+    <Compile Include="Assets\AnJ\Scripts\tpsguncontrol.cs" />
+    <Compile Include="Assets\AnJ\Scripts\tpsguncontrol_lasercanon.cs" />
+    <Compile Include="Assets\AnJ\Scripts\unlockcursor.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\SampleStage\GetUI.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\AutoDestroy.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\BasicBullet.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\BeamCollision.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\BeamLine.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\BeamParam.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\BeamWave.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\BillBoard.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\BM_WaveEffect.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\Create_MyLineMesh.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\Flash.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\GeroBeam.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\GeroBeamHit.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\GetColor_BeamLine.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\GetColor_Flash.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\GetColor_Particle.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\JumpScene.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\MouseTgt.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\RandomRotate.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\ScaleWiggle.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\SceneMaster.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\ShooterRotate.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\ShotBase.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\ShotParticle_Scale.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\Script\ShotParticleEmitter.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\EffectExamples\Shared\Scripts\GunAim.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\EffectExamples\Shared\Scripts\GunShoot.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
+    <Compile Include="Assets\AnJ\thingfromassetstore\Sci Fi Assets\Simple SciFi Gun Turret Set\Scripts\CameraMouseDrag.cs" />
+    <Compile Include="Assets\CubeSelect.cs" />
+    <Compile Include="Assets\deadcheck.cs" />
+    <Compile Include="Assets\EnableLobbyManager.cs" />
+    <Compile Include="Assets\faceToCamera.cs" />
+    <Compile Include="Assets\flagControl.cs" />
+    <Compile Include="Assets\FlagGoal.cs" />
+    <Compile Include="Assets\GameMode.cs" />
+    <Compile Include="Assets\HpChange.cs" />
+    <Compile Include="Assets\HpDisplay.cs" />
+    <Compile Include="Assets\HPEnemyorAlly.cs" />
+    <Compile Include="Assets\IP.cs" />
+    <Compile Include="Assets\loadingScene\loadingManger.cs" />
+    <Compile Include="Assets\Looader\Scripts\LO_LaunchURL.cs" />
+    <Compile Include="Assets\Looader\Scripts\LO_LoadingScreen.cs" />
+    <Compile Include="Assets\Looader\Scripts\LO_LoadScene.cs" />
+    <Compile Include="Assets\Looader\Scripts\LO_LoadSceneTrigger.cs" />
+    <Compile Include="Assets\Looader\Scripts\LO_PressAnyKey.cs" />
+    <Compile Include="Assets\Looader\Scripts\LO_SelectStyle.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\HealthBarScript.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\PauseGame.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\Scifi Environment\ButtonChangeColor.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\Scifi Environment\MakeRadarObject.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\Scifi Environment\RadarScript.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\script\ClickEvent.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\script\clickOnStart.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\script\HelpCam.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\script\MainCamControl.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\ActivateTrigger.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\CameraRefocus.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\CurveControlledBob.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\DragRigidbody.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\DynamicShadowSettings.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\EventSystemChecker.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\FollowTarget.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\ForcedReset.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\FOVKick.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\FPSCounter.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\LerpControlledBob.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\ObjectResetter.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\PlatformSpecificContent.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\SimpleMouseRotator.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\SmoothFollow.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\TimedObjectActivator.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\TimedObjectDestructor.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\WaypointCircuit.cs" />
+    <Compile Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\OnOffbyScene.cs" />
+    <Compile Include="Assets\regenArea.cs" />
+    <Compile Include="Assets\showlocalplayer.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\CameraController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\ChatController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TeleType.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Wayne\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\Wayne\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+    <Compile Include="Assets\Wayne\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Wayne\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+    <Compile Include="Assets\Wayne\Lobby\Scripts\DraggablePanel.cs" />
+    <Compile Include="Assets\Wayne\Lobby\Scripts\Lobby\LobbyCountdownPanel.cs" />
+    <Compile Include="Assets\Wayne\Lobby\Scripts\Lobby\LobbyHook.cs" />
+    <Compile Include="Assets\Wayne\Lobby\Scripts\Lobby\LobbyInfoPanel.cs" />
+    <Compile Include="Assets\Wayne\Lobby\Scripts\Lobby\LobbyMainMenu.cs" />
+    <Compile Include="Assets\Wayne\Lobby\Scripts\Lobby\LobbyManager.cs" />
+    <Compile Include="Assets\Wayne\Lobby\Scripts\Lobby\LobbyPlayer.cs" />
+    <Compile Include="Assets\Wayne\Lobby\Scripts\Lobby\LobbyPlayerList.cs" />
+    <Compile Include="Assets\Wayne\Lobby\Scripts\Lobby\LobbyServerEntry.cs" />
+    <Compile Include="Assets\Wayne\Lobby\Scripts\Lobby\LobbyServerList.cs" />
+    <Compile Include="Assets\Wayne\Lobby\Scripts\Lobby\LobbyTopPanel.cs" />
+    <Compile Include="Assets\Wayne\SampleScenes\Scripts\NetworkAsteroid.cs" />
+    <Compile Include="Assets\Wayne\SampleScenes\Scripts\NetworkGameManager.cs" />
+    <Compile Include="Assets\Wayne\SampleScenes\Scripts\NetworkLobbyHook.cs" />
+    <Compile Include="Assets\Wayne\SampleScenes\Scripts\NetworkSpaceship.cs" />
+    <Compile Include="Assets\Wayne\SampleScenes\Scripts\NetworkSpaceshipBullet.cs" />
+    <Compile Include="Assets\Wayne\Scripts\CannonballController.cs" />
+    <Compile Include="Assets\Wayne\Scripts\CannonController.cs" />
+    <Compile Include="Assets\Wayne\Scripts\DamageScript.cs" />
+    <Compile Include="Assets\Wayne\Scripts\PlayerController1.cs" />
+    <Compile Include="Assets\WeaponControl.cs" />
+    <Compile Include="Assets\YeeDer\BulidRotate.cs" />
+    <Compile Include="Assets\YeeDer\ButtonTriggerEvent.cs" />
+    <Compile Include="Assets\YeeDer\CAR\asdasd.cs" />
+    <Compile Include="Assets\YeeDer\CAR\CAR.cs" />
+    <Compile Include="Assets\YeeDer\CAR\StraightMove.cs" />
+    <Compile Include="Assets\YeeDer\CAR\WheelControll.cs" />
+    <Compile Include="Assets\YeeDer\ChangeScene.cs" />
+    <Compile Include="Assets\YeeDer\Creat\CreateObjectList.cs" />
+    <Compile Include="Assets\YeeDer\Creat\CreaterFunction.cs" />
+    <Compile Include="Assets\YeeDer\Creat\NewFirstPersonControl.cs" />
+    <Compile Include="Assets\YeeDer\ct.cs" />
+    <Compile Include="Assets\YeeDer\CursorDeLock.cs" />
+    <Compile Include="Assets\YeeDer\Example 1\ChatroomManager.cs" />
+    <Compile Include="Assets\YeeDer\Example 1\ChatroomMessenger.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\ChangePlayerController.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\Connectfunction\AuthorityToClient.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\Connectfunction\NetName.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\Connectfunction\NetPlayerController.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\Connectfunction\NetworkGUI.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\Connectfunction\NetworkManager2.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\Connectfunction\PlayerNetInformation.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\Connectfunction\RegisteFunction.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\Connectfunction\SpawnPrefabList.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\GUN\ExplosionPlay.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\GUN\Laser\BeamWaveS.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\GUN\Laser\NetBeamCollision.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\GUN\Laser\NetFireLaser.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\GUN\LockRotate.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\GUN\Netbullet.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\GUN\NetFireBullet.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\GUN\NetFireRocket.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\GUN\NetFireShell.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\GUN\NetRocketExplosion.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\GUN\NetShellExplosion.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\GUN\Nettpsguncontrol.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\GUN\Nettpsguncontrol_lasercanon.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\GUN\ssd4a56.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\HPtest.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\MOVE\NetAnamatorControl.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\MOVE\NetCAR\NetCAR.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\MOVE\NetCAR\NetCarControll.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\MOVE\NetCAR\NetWheel.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\MOVE\NetFindAllWheel.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\MOVE\Propeller\NetHelicopterController.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\MOVE\Propeller\NetHeliRotorController.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\MOVE\Propeller\NetProprller.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\MOVE\RBFOOT\NetRBFoot.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\MOVE\RBFOOT\NetRFAnimation.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\MOVE\RBFOOT\NetTRF.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\MOVE\TRACK\NetTrack.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\MOVE\WheelFindMove.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\NetCreate\BodyFindPlayer.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\NetCreate\BodyInPlayer.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\NetCreate\FindBody.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\NetCreate\FindCube.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\NetCreate\LockPosition.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\NetCreate\MoveInPlayer.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\NetCreate\NetCubeProperty.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\NetCreate\NetMoveFix.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\NetCreate\NetobjMainBodyStateControl.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\NetCreate\NetobjStateControl.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\NetCreate\RobotProperty.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\NetCreate\SetMidPoint.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\NetCreate\TimePsitionLock.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\NetSpeedTest.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\RRay.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\SKILL\NetInvisible.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\SKILL\NetProtect.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\SKILL\NetSkill.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\SyncNumber.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\UI\NetHpDisplay.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\UI\NetMakeRadarObject.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\UI\ServerUI.cs" />
+    <Compile Include="Assets\YeeDer\NetWork\UUUUUUUUUUUUUU.cs" />
+    <Compile Include="Assets\YeeDer\ObjectName.cs" />
+    <Compile Include="Assets\YeeDer\Raytest.cs" />
+    <Compile Include="Assets\YeeDer\RFOOT\OnGround.cs" />
+    <Compile Include="Assets\YeeDer\RFOOT\RFAnimation.cs" />
+    <Compile Include="Assets\YeeDer\RFOOT\TRF.cs" />
+    <Compile Include="Assets\YeeDer\Robot.cs" />
+    <Compile Include="Assets\YeeDer\SaveLoad\SaveLoadRobot.cs" />
+    <Compile Include="Assets\YeeDer\TRACK\TackAnimation.cs" />
+    <Compile Include="Assets\YeeDer\TRACK\TrackControll.cs" />
+    <Compile Include="Assets\zhichao\deathTime.cs" />
+    <Compile Include="Assets\zhichao\Helicopter\Scripts\Checkpoint.cs" />
+    <Compile Include="Assets\zhichao\Helicopter\Scripts\CheckpointController.cs" />
+    <Compile Include="Assets\zhichao\Helicopter\Scripts\ControlPanel.cs" />
+    <Compile Include="Assets\zhichao\Helicopter\Scripts\FollowTargetCamera.cs" />
+    <Compile Include="Assets\zhichao\Helicopter\Scripts\HelicopterController.cs" />
+    <Compile Include="Assets\zhichao\Helicopter\Scripts\HeliRotorController.cs" />
+    <Compile Include="Assets\zhichao\Helicopter\Scripts\LookAtTargetController.cs" />
+    <Compile Include="Assets\zhichao\Helicopter\Scripts\PressedKeyCode.cs" />
+    <Compile Include="Assets\zhichao\Helicopter\Scripts\UIGameController.cs" />
+    <Compile Include="Assets\zhichao\MyCar\script\carControl.cs" />
+    <Compile Include="Assets\zhichao\MyCar\script\userController.cs" />
+    <Compile Include="Assets\zhichao\NewBehaviourScript.cs" />
+    <Compile Include="Assets\zhichao\ParticleLight\Scripts\UVScroller_C.cs" />
+    <Compile Include="Assets\zhichao\Scene\flash.cs" />
+    <Compile Include="Assets\zhichao\Scripts\anamatorControl.cs" />
+    <Compile Include="Assets\zhichao\Scripts\FindAllWheel.cs" />
+    <Compile Include="Assets\zhichao\Scripts\flyControl.cs" />
+    <Compile Include="Assets\zhichao\Scripts\MyPlayerMove.cs" />
+    <Compile Include="Assets\zhichao\Scripts\Quanternion.cs" />
+    <Compile Include="Assets\zhichao\Scripts\RR.cs" />
+    <Compile Include="Assets\zhichao\Scripts\trackControl.cs" />
+    <Compile Include="Assets\zhichao\Scripts\wheelLControl.cs" />
+    <Compile Include="Assets\zhichao\Scripts\wheelRControl.cs" />
+    <Compile Include="Assets\zhichao\Scripts\wheelRotate.cs" />
+    <Compile Include="Assets\zhichao\shield\shield.cs" />
+    <Compile Include="Assets\zhichao\Sky FX Pack\Scripts\LightBeamsControlScript.cs" />
+    <Compile Include="Assets\zhichao\Sky FX Pack\Scripts\LookAtBehaviour.cs" />
+    <Compile Include="Assets\zhichao\Sky FX Pack\Scripts\LookAtCameraBehaviour.cs" />
+    <Compile Include="Assets\zhichao\Sky FX Pack\Scripts\RayBehavior.cs" />
+    <Compile Include="Assets\zhichao\Sky FX Pack\Scripts\RotateBehaviour.cs" />
+    <Compile Include="Assets\zhichao\textTranslate.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\HowToUse_EN.txt" />
+    <None Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\HowToUse_JP.txt" />
+    <None Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\sh\AddColor_sh.shader" />
+    <None Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\sh\Add_UVScroll_sh.shader" />
+    <None Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\sh\BeamLine_sh.shader" />
+    <None Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\sh\GeroBeam_sh.shader" />
+    <None Include="Assets\AnJ\thingfromassetstore\BasicBeamShot\sh\Sprite_Add_sh.shader" />
+    <None Include="Assets\AnJ\thingfromassetstore\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
+    <None Include="Assets\AnJ\thingfromassetstore\Sci Fi Assets\Simple SciFi Gun Turret Set\Read Me.txt" />
+    <None Include="Assets\Looader\Licence.txt" />
+    <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+    <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\Anton OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Wayne\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Wayne\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\Wayne\Lobby\Documentation.txt" />
+    <None Include="Assets\Wayne\Lobby\Instruction.txt" />
+    <None Include="Assets\mingShan\主要!!\Assets\README.txt" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\mingShan\主要!!\Assets\voxel_scifi_free\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\mingShan\主要!!\ProjectSettings\ProjectVersion.txt" />
+    <None Include="Assets\zhichao\ParticleLight\Read Me\Read Me.txt" />
+    <None Include="Assets\zhichao\ParticleLight\Shader\AdditiveMask.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
